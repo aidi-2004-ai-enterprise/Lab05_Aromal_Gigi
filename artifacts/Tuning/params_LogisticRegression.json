@@ -1,0 +1,6 @@
+{
+  "clf__solver": "lbfgs",
+  "clf__penalty": "l2",
+  "clf__max_iter": 300,
+  "clf__C": 0.02682695795279726
+}

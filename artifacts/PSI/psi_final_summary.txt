@@ -1,0 +1,4 @@
+Features: 76
+Small (<0.10): 76
+Moderate (0.10–0.25): 0
+Large (>0.25): 0

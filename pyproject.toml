@@ -1,0 +1,28 @@
+[project]
+name = "lab05-aromal-gigi"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+[tool.ruff]
+target-version = "py311"
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E","F","W","I","B","UP","C4","PT","PL","RUF"]
+ignore = ["E501"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["training_pipeline"]
+combine-as-imports = true
+force-wrap-aliases = true
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "auto"
+
+[tool.ruff.lint.per-file-ignores]
+"training_pipeline.py" = ["E402"]
+"__init__.py" = ["F401"]

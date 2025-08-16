@@ -1,0 +1,8 @@
+version = 1
+revision = 2
+requires-python = ">=3.11"
+
+[[package]]
+name = "lab05-aromal-gigi"
+version = "0.1.0"
+source = { virtual = "." }
